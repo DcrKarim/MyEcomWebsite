@@ -39,16 +39,7 @@ export class ProductPageComponent implements OnInit {
       }
     );
   }
-  /* loadProduct(id: string): void {
-    this.productService.getProductById(id).subscribe(
-      (data) => {
-        this.product = data;
-      },
-      (error) => {
-        console.error('Error fetching product details:', error);
-      }
-    );
-  } */
+
 
   addToCarts(): void {
     if (this.product) {
