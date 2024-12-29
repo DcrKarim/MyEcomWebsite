@@ -26,19 +26,7 @@ export class CartComponent implements OnInit {
     this.loadCartItems();
   }
 
-  // Fetch cart items from the backend
-  /* loadCartItems(): void {
-    this.cartService.getCartItems().subscribe(
-      (data) => {
-        this.cartItems = data;
-        console.log('Cart Items:', this.cartItems); // Log cart items to check
-        this.calculateTotal(); // Calculate total
-      },
-      (error) => {
-        console.error('Error fetching cart items:', error);
-      }
-    );
-  } */
+ 
 
 // Fetch cart items and enrich them with product details and images
   loadCartItems(): void {
@@ -90,26 +78,5 @@ export class CartComponent implements OnInit {
     );
   }
 
-  /*cartItems: any[] = [];
-  totalAmount: number = 0; // Variable to store total amount
-
-  constructor(private cartService: CartService) {}
-
-  ngOnInit(): void {
-    this.cartItems = this.cartService.getCartItems();
-    console.log('Cart Items:', this.cartItems); // Log cart items to check
-    this.calculateTotal(); // Calculate total
-  }
-
-  // Method to calculate the total
-  calculateTotal() {
-    this.totalAmount = this.cartItems.reduce((sum, item) => sum + item.price, 0);
-  }
-
-  // Method to remove item from the cart
-  removeItem(index: number) {
-    this.cartService.removeFromCart(index); // Call the remove method in the service
-    this.cartItems = this.cartService.getCartItems(); // Update the local cartItems array
-    this.calculateTotal(); // Recalculate the total amount
-  } */
+ 
 }
