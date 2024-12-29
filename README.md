@@ -129,3 +129,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For inquiries or support:
 - **Email**: karim.bouchaane@edu.devinci.fr
 - **GitHub**: [DcrKarim](https://github.com/DcrKarim)
+- WAS DONE BY:
+- Karim BOUCHAANE
+- Seifeddine BEN RHOUMA
