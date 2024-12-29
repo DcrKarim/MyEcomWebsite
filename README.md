@@ -131,4 +131,3 @@ For inquiries or support:
 - **GitHub**: [DcrKarim](https://github.com/DcrKarim)
 - WAS DONE BY:
 - Karim BOUCHAANE
-- Seifeddine BEN RHOUMA
