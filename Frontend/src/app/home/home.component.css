@@ -1,0 +1,174 @@
+
+/* General Page Styling */
+.home-page {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Slideshow Styling */
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.slideshow-slide {
+  display: none;
+  position: relative;
+}
+
+.slideshow-slide img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.caption {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+  font-size: 1.5em;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+/* Slideshow Navigation Buttons */
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  padding: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+}
+
+/* Collections Section Styling */
+.collections-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.collections-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.collection-item {
+  text-align: center;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.collection-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.collection-item h3 {
+  margin: 15px 0 5px;
+}
+
+.collection-item p {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.collection-item:hover {
+  transform: translateY(-5px);
+}
+
+/* Testimonials section */
+.testimonial-section {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.testimonial-section h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  max-width: 300px;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.testimonial .quote {
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.testimonial .author {
+  font-weight: bold;
+  color: #555;
+}
+
+/* Trusted Brands Css*/
+.trusted-brands-section {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.trusted-brands-section h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.brands-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.brand-logo {
+  max-width: 100px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.brand-logo:hover {
+  transform: scale(1.1);
+}

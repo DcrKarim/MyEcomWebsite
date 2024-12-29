@@ -1,0 +1,22 @@
+.product-container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.product-image {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.product-details {
+  flex: 1;
+}
+
+.add-to-cart {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}

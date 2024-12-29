@@ -1,0 +1,28 @@
+<div class="checkout-container">
+  <h1>Checkout</h1>
+  <form (submit)="placeOrder()">
+    <div class="form-group">
+      <label for="firstName">First Name:</label>
+      <input
+        type="text"
+        id="firstName"
+        [(ngModel)]="firstName"
+        name="firstName"
+        placeholder="Enter your first name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="phoneNumber">Phone Number:</label>
+      <input
+        type="tel"
+        id="phoneNumber"
+        [(ngModel)]="phoneNumber"
+        name="phoneNumber"
+        placeholder="Enter your phone number"
+        required
+      />
+    </div>
+    <button type="submit" class="place-order-button">Place Order</button>
+  </form>
+</div>

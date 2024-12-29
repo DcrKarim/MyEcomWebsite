@@ -1,0 +1,18 @@
+/* Container to center the content on the page */
+.about-us-container {
+  display: flex;
+  align-items: center;    /* Centers vertically */
+  justify-content: center; /* Centers horizontally */
+  height: 100vh;           /* Full viewport height */
+  text-align: center;      /* Centers text within the content */
+}
+
+/* Optional: Styling for the content */
+.about-us {
+  max-width: 600px;        /* Restricts width for readability */
+  padding: 20px;           /* Adds padding around content */
+  background-color: #f9f9f9; /* Optional: Background color */
+  border-radius: 8px;      /* Optional: Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+  text-align: left;       /* Left-aligns the text */
+}

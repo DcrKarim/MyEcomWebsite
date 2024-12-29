@@ -1,0 +1,23 @@
+
+<!--
+<div class="product-container">
+  <img [src]="product.image" alt="{{ product.name }}" class="product-image">
+  <div class="product-details">
+    <h2>{{ product.name }}</h2>
+
+        <p>{{ product.description }}</p>
+        <h3>€{{ product.price }}</h3>
+        <button class="add-to-cart" (click)="addToCart()" >Add to Cart</button>
+
+      </div>
+    </div> -->
+
+<div class="product-container">
+  <img [src]="product?.image" alt="{{ product?.name }}" class="product-image" />
+  <div class="product-details">
+    <h2>{{ product?.title }}</h2>
+    <p>{{ product?.description }}</p>
+    <h3>€{{ product?.price }}</h3>
+     <button class="add-to-cart" (click)="addToCarts()">Add to Cart</button>
+  </div>
+</div>

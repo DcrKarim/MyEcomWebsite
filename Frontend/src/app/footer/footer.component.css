@@ -1,0 +1,100 @@
+/* General Footer Container Styling */
+.footer-container {
+  background-color: #333; /* Dark background */
+  color: #fff; /* White text */
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Footer Content Grid Layout */
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Footer Sections */
+.footer-section h3, .footer-section h4 {
+  color: #ff9900; /* Accent color for headings */
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  font-size: 0.9em;
+  line-height: 1.5;
+  color: #ccc; /* Light gray text for paragraphs */
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: #ccc; /* Link color */
+  text-decoration: none;
+  font-size: 0.9em;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #ff9900; /* Hover color for links */
+}
+
+/* Contact Information and Social Icons */
+.contact-info p {
+  margin: 5px 0;
+  font-size: 0.9em;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.social-icons a img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1); /* Makes icons white */
+  transition: filter 0.3s ease;
+}
+
+.social-icons a:hover img {
+  filter: brightness(0.7) invert(1); /* Darkens icons on hover */
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #444; /* Light border to separate sections */
+  margin-top: 10px; /* Reduce this margin if necessary */
+  padding-top: 10px; /* Reduce or remove padding as needed */
+  padding-bottom: 5px; /* Add this line to control space between text and bottom */
+}
+
+.footer-container {
+  padding-bottom: 10px; /* Controls padding at the very bottom */
+}
+
+.footer-bottom p {
+  font-size: 0.8em;
+  color: #ccc; /* Light gray for copyright text */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .footer-content {
+    grid-template-columns: 1fr; /* Stack sections on small screens */
+  }
+
+.social-icons {
+    justify-content: center;
+  }
+
+}
