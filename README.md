@@ -1,5 +1,8 @@
 # E-Commerce Application
 
+### Homepage
+![Homepage Screenshot](ScreenshotOfProject.PNG)
+
 ## Overview
 This project is a full-stack e-commerce web application. It includes features such as product listing, adding products to a cart, placing orders, and order management. The application is built using Angular for the frontend and Node.js with PostgreSQL for the backend.
 
