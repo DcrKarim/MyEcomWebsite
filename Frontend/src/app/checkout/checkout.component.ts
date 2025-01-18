@@ -32,7 +32,7 @@ export class CheckoutComponent implements OnInit {
       this.totalAmount = parseFloat(params['totalAmount']) || 0;
     });
 
-  }
+  } //I add this bracket 
   
 
   loadCartTotal(): Observable<number> {
