@@ -89,8 +89,8 @@ VALUES
   ('Smart Home Camera', 'Indoor smart security camera with motion detection and two-way audio', 49.99);
 
 
-
 This step introduces a structured "Database Setup" section.
+```
 
 ### Frontend
 - **Angular**: A powerful framework for building responsive and dynamic web interfaces.
